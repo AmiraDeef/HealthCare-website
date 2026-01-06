@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    
+    .nav-tabs {
+        display: none !important; 
+    }
+
+    .bars {
+        display: block !important;
+    }
+}
