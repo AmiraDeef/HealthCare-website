@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 a{
     text-decoration: none;
@@ -13,10 +13,9 @@ a{
 ul{
     list-style: none;
 }
-
-
-
-
+.bg-light{
+    background-color: #F4F4F4;
+}
 
 .container{
     width: 90%;
@@ -34,49 +33,138 @@ ul{
     align-items: center;
 
 }
-.d-none{
-    display: none;
+
+.padding-top-bottom{
+    padding: 16px;
+}
+
+p{
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px;
+    line-height: 24px;
 }
 
 
-
-
-
-
+.oval-btn{
+    display: inline-flex;     
+    align-items: center;      
+    justify-content: center;
+    padding: 1% 5%;
+    background-color: #285E67;
+    color: white;
+    width: 211px;
+    height: 56px;
+    border-radius: 25px;
+    font-weight: 500;
+}
 
 
 
 .circle{
- background-color: gray;
- /* border: 2px solid gray; */
- width: 18px; 
- height: 18px;
+ background-color: #D0D0D0;
+ width: 26px; 
+ height: 26px;
  border-radius: 50%;
  
 }
-.logo h4{
+.logo h5{
     margin-left:10px;
+    color: #285E67;
+    font-size: 22px;
+    font-weight: 600;
 }
-.nav-tabs{
+.tabs{
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 40%;
-    justify-content: space-evenly;
+    width: auto;
+    gap: 30px;
+    
 }
-.nav-tabs li{
-
+.tabs li{
+    padding: 10px 0;
     padding: 3% 0;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2B2B;
+    
+    
+}
+.bars{
+    display: none;
 }
 .head{
-    padding: 5%;
+    padding: 5% 0; 
+    width: 100%;
     text-align: center;
 }
-.head-img img{
-    border-radius: 5%;
-    width: 100%;
+.head h1{
+    font-size: 65.34px;
+    font-weight: 600;
+    color: #2A2A2A;
+    line-height: 82px;
+    margin: 0 auto;
+    max-width: 100%;
 }
+
 .head-img{
-    width: 35%;
+    width: 100%;
     flex-wrap: wrap;
 }
+
+.img-box {
+    width: 50%;
+    padding: 1%;
+}
+.img-box img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer{
+    background-color: #285E67;
+    color: white;
+    padding: 1%;
+}
+footer .tabs a,footer .logo h5{
+    color: white;
+}
+.footer-cont{
+    width: 100%;
+    margin: 30px 0;
+}
+.social-icons{
+    display: flex;
+    margin: 3% 0;
+}
+.social-icons i{
+    font-size: 24px;
+    padding: 2px;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: flex-start;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+
+}
+
+
+
+
+
+
