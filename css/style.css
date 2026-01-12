@@ -15,6 +15,7 @@ ul{
 }
 .bg-light{
     background-color: #F4F4F4;
+    border-radius: 6px;
 }
 
 .container{
@@ -51,11 +52,10 @@ p{
     display: inline-flex;     
     align-items: center;      
     justify-content: center;
-    padding: 1% 5%;
+    text-align: center;
+    padding: 16px 80px;
     background-color: #285E67;
     color: white;
-    width: 211px;
-    height: 56px;
     border-radius: 25px;
     font-weight: 500;
 }
@@ -124,6 +124,51 @@ p{
 }
 
 
+.content{
+   width: 55%;
+   padding: 3%
+}
+.content h3{
+    font-size:50.52px ;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 40px;
+
+}
+.leaf{
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    
+
+}
+.leaf i{
+    
+    border-radius: 9px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 80px;
+
+}
+.left-side i{
+    background-color:#285E67 ;
+}
+.right-side i{
+    background-color:#EBBFAE ;
+    color: black;
+}
+.relax-img{
+    width: 40%;
+}
+.relax-img img{
+    width: 100%;
+}
+
+
 footer{
     background-color: #285E67;
     color: white;
@@ -162,6 +207,10 @@ footer .tabs a,footer .logo h5{
     background-color: transparent;
 
 }
+
+
+
+
 
 
 
