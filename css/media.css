@@ -4,6 +4,7 @@
         align-items: flex-start;
         gap: 20px;
     }
+<<<<<<< HEAD
 
     .tabs {
         width: 43%;
@@ -90,12 +91,20 @@
 
 
 
+=======
+}
+
+@media(max-width:480px) {
+>>>>>>> 727bf22dc037e7b04f1f5dc2fe2ed9c66db399bc
     footer .container {
         width: 60%;
         padding: 2%;
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 727bf22dc037e7b04f1f5dc2fe2ed9c66db399bc
     .footer-cont {
 
         flex-direction: column;
@@ -167,8 +176,11 @@
         object-fit: cover;
     }
 
+<<<<<<< HEAD
     .fresh {
         align-items: flex-start;
     }
 
+=======
+>>>>>>> 727bf22dc037e7b04f1f5dc2fe2ed9c66db399bc
 }
