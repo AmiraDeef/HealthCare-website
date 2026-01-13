@@ -4,12 +4,12 @@ This project is a frontend implementation of a professional UI design. I develop
 
 ##  Built With
 * **HTML5** - Semantic structure
-* **CSS3** - Flexbox, CSS Grid, and custom properties (variables)
+* **CSS3** - Flexbox, and custom properties (variables)
 * **Responsive Design** - Mobile-first approach
 
 ## Design Resource
 The UI design for this project was provided by the Figma community:
-* **Figma Design:** [Minimalistic Responsive Landing Pages](www.figma.com)
+* **Figma Design:** [Minimalistic Responsive Landing Pages](https://www.figma.com/design/SYYRHfHnH6UWZETPYLH0XS/Minimalistic-Responsive-Landing-Pages--Community-?node-id=0-1&p=f&t=QWRQIblj0e2J1Bzj-0)
 * *Note: I focused exclusively on the frontend development and code implementation of this design.*
 
 ##  How to Run
